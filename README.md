@@ -25,7 +25,7 @@ The script reads in a configuration file (`config.ini`) to get the following set
 To run the script, you will need to provide an API key and set up the other desired settings in the `config.ini` file. Then, you can run the script using the following command:
 
 ```
-python script.py
+python gpt.py
 ```
 
 The script will prompt you to enter a prompt, and it will generate a response based on the settings specified in the configuration file. The response, as well as the number of tokens used for the prompt and response, will be printed to the console. The prompt and response will also be appended to the `responses.txt` file.
